@@ -1,43 +1,178 @@
-<!doctype html>
+<!DOCTYPe html>
+<html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>Home</title>
-	<link rel="icon" type="image/png" href="KS.png"/>
-	<style type="text/css">
-		h1 {color:pink; text-align:center;}
-		h2#textred{color:yellow;}
-		#thinggreen{color:green;}
-		i,b{color:green;}
-		#box{width:200px;height:200px;background-color:teal;}
-		.pinky{color:pink;}
-		p>i {color:red;}
-		a:link{color:red;}
-		a:active{color:blue;}
-		a:visited{color:black;}
-	</style>
+	<link rel="icon" type="image/png" href="international.png"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+    display: block;
+    max-width:180px;
+    max-height:180px;
+    width: auto;
+    height: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.25); 
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25); 
+}
+</style>
+<script type="text/javascript">
+
+var Ros=["Ros_1.jpg","Ros_2.jpg","Ros_3.jpg","Ros_4.jpg","Ros_5.jpg","Ros_6.jpg"];
+var Shiho=["Shiho1.jpg","Shiho2.png","Shiho3.jpg"];
+var Nat=["Natalia1.gif","Natalia2.jpg","Natalia3.jpg"];
+
+var index=indexN=indexS=0;
+
+function myPrevious(){
+if(index<=0){index=Ros.length;}
+document.getElementById("Ros").src="../Assignment/images/"+Ros[--index];
+}
+function myNext(){
+document.getElementById("Ros").src="../Assignment/images/"+Ros[++index];
+if(index>=Ros.length-1){index=-1;}
+}
+function myPreviousN(){
+if(indexN<=0){indexN=Nat.length;}
+document.getElementById("Nat").src="../Assignment/images/"+Nat[--indexN];
+}
+function myNextN(){
+document.getElementById("Nat").src="../Assignment/images/"+Nat[++indexN];
+if(indexN>=Nat.length-1){indexN=-1;}
+}
+
+function myPreviousS(){
+if(indexS<=0){indexS=Shiho.length;}
+document.getElementById("Shiho").src="../Assignment/images/"+Shiho[--indexS];
+}
+function myNextS(){
+document.getElementById("Shiho").src="../Assignment/images/"+Shiho[++indexS];
+if(indexS>=Shiho.length-1){indexS=-1;}
+}
+
+</script>
 </head>
 <body>
-	<a name"top">
-	<marquee>
-			<h1>~Welcome to My Home Page~</h1>
-	</marquee>
-	<br/>
-	<a href="media.html">Music and Video</a><br/>
-	<a href="CV.html">CV with HTML</a><br/>
-	<h1 id="textred">Devil May Cry</h1>
-	<i id="thinggreen">Devil May Cry</i><br>
-	<u id="box">Devil May Cry</u>
-	<li class="pinky">Trish</li>
-	<p>Input<i>out </i></p>
-	<div class="centerer">
-		<script type="text/javascript" src="3dspinhelp.js"></script>
-		<script type="text/javascript">
-			showSpin("meizu-15.jpg");
-		</script>
-		<div class="spin-360-deg" draggable="false" id="spin-360-n1" style="height: 450px;">
-			<canvas width="400" height="450"></canvas>
-			<div class="spin-360-arrows" style="opacity: 0;"></div>
-		</div>
-	</div>
-	<a href="#top">Go To The Top</a>
+<table border="10" width="100%" bordercolor="#721273" style="align: center;" > 
+<a  href="index.html">
+	<tr>
+		<td style="text-align:center">
+			<a  href="index.html">
+				<marquee  behavior=scroll scrollamount="10">
+					<img src="international.png" width="150px" height="75px" title="International Women's Day" alt="International Women's Day"/>
+				</marquee>
+			</a>
+		</td>
+	</tr>
+</a>
+</table>
+<div class="table-responsive">
+<table height="25px"><table>
+<table class="table" border="0px" width="100%" style="align: center;"> 
+	<thead>
+		<tr>
+		<td style="text-align:center"><div class="zoom"><img src="./1x1/Ros Sereysothea 1x1.jpg" width="180px" height="180px" title="Ros Sereysothea"/></div></td>
+		<td style="text-align:center"><div class="zoom"><img src="./1x1/Shiho Yoshimura 1x1.png" width="180px" height="180px" title="Shiho Yoshimura"/></div></td>
+		<td style="text-align:center"><div class="zoom"><img src="./1x1/Natalia Poklonskaya 1x1.png" width="180px" height="180px" title="Natalia Poklonskaya"/></div></td>
+		</tr>
+	</thead>
+	<tbody>
+	<tr><td style="text-align:left"><pre style="font-family: Times New Roman"><b>	Name			 : Ros Sereysothea</b>"  រស់ សេរីសុទ្ធា "</pre></td>
+		<td style="text-align:left"><pre style="font-family: Times New Roman"><b>	Name			 : Shiho Yoshimura</b>" 吉村志穂 "</pre></td>
+		<td style="text-align:left"><pre style="font-family: Times New Roman"><b>	Name			 : Natalia Poklonskaya</b>" Наталья Владимировна "</td>
+	</tr>
+	
+	<tr><td style="text-align:left"><pre style="font-family: Times New Roman"><b>	Professional		 :</b> Cambodian singer</pre></td>
+		<td style="text-align:left"><pre style="font-family: Times New Roman"><b>	Professional		 :</b> Japanese volleyball player</pre></td>
+		<td style="text-align:left"><pre style="font-family: Times New Roman"><b>	Professional		 :</b> Russian Politician</pre></td>
+	</tr>
+	
+	<tr>
+		<td style="text-align:left"><pre style="font-family: Times New Roman"><b>	Nation			 :</b> Cambodian</pre></td>
+		<td style="text-align:left"><pre style="font-family: Times New Roman"><b>	Nation			 :</b> Japanese</pre></td>
+		<td style="text-align:left"><pre style="font-family: Times New Roman"><b>	Nation			 :</b> Russian</pre></td>
+	</tr>
+	
+	<tr>
+		<td style="text-align:center"><iframe src="https://www.youtube.com/embed/NQ3ai8ozH8g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+		<td style="text-align:center"><iframe src="https://www.youtube.com/embed/7qUfQ1zcUfw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+		<td style="text-align:center"><iframe src="https://www.youtube.com/embed/uFjyHNbGiuM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+	</tr>
+	<tbody>
+</table>
+
+<table class="table" border="5px" width="100%" style="align: center"> 
+
+	<tbody>
+		<tr>
+			<td>
+				<table height="15px"><table>
+				<table width="100%"> 
+					<tbody>
+						<tr>
+							<td style="text-align:center"><img  src="../Assignment/images/Ros_1.jpg" height="180px" class="zoom" id="Ros"/></td>
+						</tr>
+					</tbody>
+				</table>
+			<div style="text-align:center;">
+			<input type="button" width="200px" value="Previus"  onClick="myPrevious()"/>
+			<input type="button" width="200px" value="Next"  onClick="myNext()"/>
+			</div>
+			</td>
+			<td>
+			<table height="15px"><table>
+				<table width="100%"> 
+					<tbody>
+						<tr>
+							<td style="text-align:center"><img  src="../Assignment/images/Shiho1.jpg" height="180px" class="zoom" id="Shiho"/></td>
+						</tr>
+					</tbody>
+				</table>
+			<div style="text-align:center;">
+			<input type="button" width="200px" value="Previus"  onClick="myPreviousS()"/>
+			<input type="button" width="200px" value="Next"  onClick="myNextS()"/>
+			</div>
+			</td>
+			<td>
+			<table height="15px"><table>
+			<table width="100%" > 
+			
+					<tbody>
+						<tr>							
+							<td style="text-align:center"><img  src="../Assignment/images/Natalia1.gif"  height="180px" class="zoom" id="Nat"/></td>
+						</tr>
+					</tbody>
+				</table>
+			<div style="text-align:center;">
+			<input type="button" width="200px" value="Previus"  onClick="myPreviousN()"/>
+			<input type="button" width="200px" value="Next"  onClick="myNextN()"/>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+
 </body>
+
+
+</html>
